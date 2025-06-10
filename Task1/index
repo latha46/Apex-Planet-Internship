@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Learning Platforms</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Empowering Minds Through Digital Learning</h1>
+    <p>Unlock your potential with trusted online education platforms.</p>
+  </header>
+
+  <section class="platforms-logos">
+    <h2>Trusted Learning Platforms</h2>
+    <div class="logo-grid">
+      <a href="https://www.coursera.org" target="_blank">
+        <img src="coursera.png" alt="Coursera Logo" />
+      </a>
+      <a href="https://www.khanacademy.org" target="_blank">
+        <img src="khan academy.png" alt="Khan Academy Logo" />
+      </a>
+      <a href="https://unacademy.com" target="_blank">
+        <img src="unacademy.png" alt="Unacademy Logo" />
+      </a>
+      <a href="https://www.byjus.com/" target="_blank">
+        <img src="BY'JUS.png" alt="BYJU'S Logo" />
+      </a>
+      
+    </div>
+  </section>
+  <section class="platforms">
+    <h2>Explore Popular Learning Platforms</h2>
+    <div class="platform-list">
+      <div class="platform-card">
+        <h3>Coursera</h3>
+        <p>Top university and company courses worldwide.</p>
+        <a href="https://www.coursera.org" target="_blank">Visit Site</a>
+      </div>
+      <div class="platform-card">
+        <h3>Khan Academy</h3>
+        <p>Free world-class education for anyone, anywhere.</p>
+        <a href="https://www.khanacademy.org" target="_blank">Visit Site</a>
+      </div>
+      <div class="platform-card">
+        <h3>Unacademy</h3>
+        <p>India’s largest learning platform for exams and school.</p>
+        <a href="https://unacademy.com" target="_blank">Visit Site</a>
+      </div>
+      <div class="platform-card">
+        <h3>BYJU'S</h3>
+        <p>Interactive learning app for K-12 and competitive exams.</p>
+        <a href="https://www.byjus.com" target="_blank">Visit Site</a>
+      </div>
+    </div>
+  </section>
+
+  <button id="backToTop" title="Back to Top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
