@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Website</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Contact</a>
+    <a href="#">Gallery</a>
+  </nav>
+
+  <div class="container">
+    <main>
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="text" id="subject" placeholder="Subject" required />
+        <textarea id="message" placeholder="Your message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMessage" style="display: none; color: green;"></p>
+
+    </main>
+
+    <aside>
+      <h2>To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="New task" />
+      <button onclick="addTask()">Add</button>
+      <ul id="taskList"></ul>
+    </aside>
+  </div>
+
+  <footer>
+    © 2025 My Website
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
