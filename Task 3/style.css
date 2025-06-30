@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e0f7fa, #fce4ec);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #00695c;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quiz {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+button {
+  background-color: #0097a7;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #00796b;
+}
+
+#score {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #f8bbd0;
+  text-align: center;
+  padding: 15px;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
